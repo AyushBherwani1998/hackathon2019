@@ -41,7 +41,7 @@ class _EState extends State<eChallan> {
                   border: new OutlineInputBorder(
                     borderRadius: new BorderRadius.circular(25.0)
                   ),
-                  hintText: "enter a name"
+                  hintText: "Enter a name"
                 ),
               )),
               Container(
@@ -54,7 +54,7 @@ class _EState extends State<eChallan> {
                     border: new OutlineInputBorder(
                       borderRadius: new BorderRadius.circular(25.0)
                     ),
-                    hintText: "enter a mobile no."
+                    hintText: "Enter a mobile no."
                   ),
                 ),),
                 
