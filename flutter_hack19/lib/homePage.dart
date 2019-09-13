@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hack19/barcodeScanner.dart';
+import 'package:flutter_hack19/eChallan.dart';
 import 'package:flutter_hack19/verifyPolice.dart';
+
 
 class HomePage extends StatefulWidget {
   @override
@@ -38,6 +40,16 @@ class _HomePageState extends State<HomePage> {
                             context,
                             MaterialPageRoute(
                                 builder: (context) => QRViewExample()));
+                      }),
+                ),
+                Card(
+                  child: ListTile(
+                      title: Text("e-Challan"),
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => eChallan()));
                       }),
                 )
               ],
